@@ -1,0 +1,15 @@
+@import url("./__two_lines/place__website__two_lines.css");
+@import url("./__url-heading/place__website__url-heading.css");
+@import url("./__link/place__website__link.css");
+
+.place__website {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 320px) {
+   .place__website {
+    display: none;
+  }
+}  

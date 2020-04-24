@@ -1,0 +1,9 @@
+.place__website__two_lines {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website__two_lines {
+    margin: 0;
+  }  
+}
