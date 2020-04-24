@@ -6,3 +6,5 @@ Technology used:
 * HTML
 * CSS
 * Figma
+
+https://vermelon.github.io/web_project_3/
