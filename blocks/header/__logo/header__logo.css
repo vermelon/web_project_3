@@ -1,9 +1,10 @@
 .header__logo {
   width: 196px;
   height: 46px;
-}
+  align-self: start;
 
-@media screen and (max-width: 320px) {
+}
+@media screen and (max-width: 500px) {
   .header__logo {
     width: 156px;
     height: 36px;

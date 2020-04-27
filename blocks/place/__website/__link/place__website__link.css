@@ -1,6 +1,10 @@
 .place__website__link {
-    font-size: 18px;
-    line-height: 1.2;
-    color: white;
-    height: 22px;
-  }
+  font-size: 18px;
+  line-height: 1.2;
+  color: white;
+  height: 22px;
+}
+
+.place__website__link:hover {
+  opacity: 0.8;  
+}   

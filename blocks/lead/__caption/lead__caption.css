@@ -7,11 +7,18 @@
   text-transform: uppercase;
   padding-top: 8px;
   margin: 0;
-  align-self: start;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 997px) {
   .lead__caption {
-    margin-left: 16px;
+    padding-left: 24px;
   }
-}
+}  
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}  
+

@@ -6,6 +6,14 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 600px) {
+  .cover__title {
+    font-size: 35px;
+    line-height: 1.1;
+  }  
+}
+
+
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;

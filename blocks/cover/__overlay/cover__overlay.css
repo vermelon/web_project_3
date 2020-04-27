@@ -1,6 +1,6 @@
 .cover__overlay {
-  width: 1184px;
-  height: 740px;
+  width: 100%;
+  height: auto;
   position: absolute;
   background: #2A2C2F;
   opacity: 0;
@@ -12,22 +12,7 @@
   
   @media screen and (max-width: 1024px) {
     .cover__overlay {
-      width: 1024px;
       margin: 0;
     }
   }
   
-  @media screen and (max-width: 768px) {
-    .cover__overlay {
-      width: 100vw;
-      margin: 0;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .cover__overlay {
-      width: 320px;
-      height: 200px;
-      position: absolute;
-    }
-  }

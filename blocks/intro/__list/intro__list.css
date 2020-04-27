@@ -1,7 +1,7 @@
+@import url("./__list-item/intro__list-item.css");
+
 .intro__list {
   list-style: none;
   padding: 0;
-  font-size: 12px;
-  line-height: 1.5;
 }
 

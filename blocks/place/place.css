@@ -1,19 +1,64 @@
-@import url("./__column/_second/place__column_second.css");
 @import url("./__image/place__image.css");
 @import url("./__paragraph/place__paragraph.css");
 @import url("./__title/place__title.css");
+@import url("./__description/place__description.css");
 @import url("./__website/place__website.css");
 
 .place {
   width: 100%;
   margin-bottom: 80px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: repeat (2 auto);
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+  "title website"
+  "image description";
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px auto;
+    column-gap: 32px;
+    padding: 0 48px;
+    box-sizing: border-box;
+  }  
+} 
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    grid-template-columns: 340px auto;
+    column-gap: 28px;
+    padding-bottom: 72px;
+    margin-bottom: 0px;
+  }  
+} 
+
+@media screen and (max-width: 600px) {
+  .place {
+    grid-template-columns: 100%;
+    column-gap: 20px;
+    padding-bottom: 72px;
+    margin-bottom: 0px;
+    grid-template-areas:
+    "title"
+    "image"
+    "website" 
+    "description"
+  }  
+} 
 
 @media screen and (max-width: 320px) {
   .place {
-    flex-direction: column;
+    grid-template-columns: 320px;
+    column-gap: 32px;
     margin-bottom: 48px;
+    grid-template-areas:
+    "title"
+    "image" 
+    "description";
+    padding: 0;
   }
 }  

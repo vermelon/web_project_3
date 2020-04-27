@@ -1,0 +1,4 @@
+.place__description {
+    grid-area: description;
+    width: inherit;
+}
