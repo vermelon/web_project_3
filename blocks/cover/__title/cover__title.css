@@ -6,13 +6,19 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 615px) {
   .cover__title {
-    font-size: 35px;
+    font-size: 45px;
     line-height: 1.1;
   }  
 }
 
+@media screen and (max-width: 390px) {
+  .cover__title {
+    font-size:  35px;
+    line-height: 1.1;
+  }  
+}
 
 @media screen and (max-width: 320px) {
   .cover__title {

@@ -6,26 +6,15 @@
 .lead {
   display: flex;
   flex-direction: column;
-  width: inherit;
+  width: 100%; 
+  max-width: 984px;
   margin: 0 auto;
   align-items: center;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1024px) {
   .lead {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead {
-    width: 100%;
-    box-sizing: inherit;
-  }
-}  
-
-@media screen and (max-width: 320px) {
-  .lead {
-    width: 320px;
+    padding: 0;
   }
 }

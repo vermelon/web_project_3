@@ -4,38 +4,37 @@
 
 .header {
   display: flex;
-  padding: 34px 148px 58px;
+  padding: 34px 0 58px;
   justify-content: space-between;
-  width: 984px;
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    padding: 36px 148px 47px;
-    box-sizing: border-box;
-    width: 100%;
-  }
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    padding: 34px 48px 50px;
-    width: 100%;
-    box-sizing: border-box;
+    max-width: 928px;
+    padding: 34px 0 50px;
   }  
 }  
 
+@media screen and (max-width: 953px) {
+  .header {
+    max-width: 928px;
+    padding: 34px 20px 50px;
+  }  
+}  
+
+
 @media screen and (max-width: 768px) {
   .header {
-    width: 100%;
-    padding: 24px 34px 50px;
-    box-sizing: border-box;
+    padding: 24px 34px 50px; 
   }
 }   
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .header {
     padding: 24px 16px;
-    box-sizing: border-box;
+
   }
 }

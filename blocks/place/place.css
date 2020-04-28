@@ -6,7 +6,7 @@
 
 .place {
   width: 100%;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 460px 484px;
   grid-template-rows: repeat (2 auto);
@@ -21,8 +21,6 @@
   .place {
     grid-template-columns: 440px auto;
     column-gap: 32px;
-    padding: 0 48px;
-    box-sizing: border-box;
   }  
 } 
 
