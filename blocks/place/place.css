@@ -59,4 +59,8 @@
     "description";
     padding: 0;
   }
+
+  .place:last-of-type {
+    margin-bottom: 0;
+  }
 }  
